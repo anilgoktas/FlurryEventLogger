@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C48B22E58C74BFB35B107E2 /* Pods_FlurryEventLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FCD600528FB2AE4928000FA /* Pods_FlurryEventLogger.framework */; };
 		20072E741D2047CE0064A374 /* FlurryEventLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 20072E731D2047CE0064A374 /* FlurryEventLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		20072E7B1D2047CF0064A374 /* FlurryEventLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20072E701D2047CE0064A374 /* FlurryEventLogger.framework */; };
 		20072E801D2047CF0064A374 /* FlurryEventLoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20072E7F1D2047CF0064A374 /* FlurryEventLoggerTests.swift */; };
+		2057723A1D204854008C21AB /* FlurryEventLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205772391D204854008C21AB /* FlurryEventLogger.swift */; };
+		2057723C1D20486A008C21AB /* Indexable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2057723B1D20486A008C21AB /* Indexable.swift */; };
+		F47239D089EC306AA873D24E /* Pods_FlurryEventLoggerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75FD613CEF3C234F4C2BC8EA /* Pods_FlurryEventLoggerTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +33,14 @@
 		20072E7A1D2047CF0064A374 /* FlurryEventLoggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlurryEventLoggerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20072E7F1D2047CF0064A374 /* FlurryEventLoggerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlurryEventLoggerTests.swift; sourceTree = "<group>"; };
 		20072E811D2047CF0064A374 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		205772391D204854008C21AB /* FlurryEventLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlurryEventLogger.swift; sourceTree = "<group>"; };
+		2057723B1D20486A008C21AB /* Indexable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Indexable.swift; sourceTree = "<group>"; };
+		5FCD600528FB2AE4928000FA /* Pods_FlurryEventLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlurryEventLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6177C6923794EF492A97B503 /* Pods-FlurryEventLoggerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlurryEventLoggerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlurryEventLoggerTests/Pods-FlurryEventLoggerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		75FD613CEF3C234F4C2BC8EA /* Pods_FlurryEventLoggerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlurryEventLoggerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		886D64300977F3393ABE1BBF /* Pods-FlurryEventLoggerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlurryEventLoggerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlurryEventLoggerTests/Pods-FlurryEventLoggerTests.release.xcconfig"; sourceTree = "<group>"; };
+		A53FFCCEC0EB1B963515D3DB /* Pods-FlurryEventLogger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlurryEventLogger.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlurryEventLogger/Pods-FlurryEventLogger.debug.xcconfig"; sourceTree = "<group>"; };
+		AF5E91D3136767EE3AC0DE63 /* Pods-FlurryEventLogger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlurryEventLogger.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlurryEventLogger/Pods-FlurryEventLogger.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C48B22E58C74BFB35B107E2 /* Pods_FlurryEventLogger.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +57,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				20072E7B1D2047CF0064A374 /* FlurryEventLogger.framework in Frameworks */,
+				F47239D089EC306AA873D24E /* Pods_FlurryEventLoggerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +70,8 @@
 				20072E721D2047CE0064A374 /* FlurryEventLogger */,
 				20072E7E1D2047CF0064A374 /* FlurryEventLoggerTests */,
 				20072E711D2047CE0064A374 /* Products */,
+				328C21130524DCF374999D72 /* Pods */,
+				D7D1C676C5F43D1E61B68635 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,6 +88,8 @@
 			isa = PBXGroup;
 			children = (
 				20072E731D2047CE0064A374 /* FlurryEventLogger.h */,
+				205772391D204854008C21AB /* FlurryEventLogger.swift */,
+				2057723B1D20486A008C21AB /* Indexable.swift */,
 				20072E751D2047CE0064A374 /* Info.plist */,
 			);
 			path = FlurryEventLogger;
@@ -84,6 +102,26 @@
 				20072E811D2047CF0064A374 /* Info.plist */,
 			);
 			path = FlurryEventLoggerTests;
+			sourceTree = "<group>";
+		};
+		328C21130524DCF374999D72 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A53FFCCEC0EB1B963515D3DB /* Pods-FlurryEventLogger.debug.xcconfig */,
+				AF5E91D3136767EE3AC0DE63 /* Pods-FlurryEventLogger.release.xcconfig */,
+				6177C6923794EF492A97B503 /* Pods-FlurryEventLoggerTests.debug.xcconfig */,
+				886D64300977F3393ABE1BBF /* Pods-FlurryEventLoggerTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D7D1C676C5F43D1E61B68635 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5FCD600528FB2AE4928000FA /* Pods_FlurryEventLogger.framework */,
+				75FD613CEF3C234F4C2BC8EA /* Pods_FlurryEventLoggerTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,10 +142,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20072E841D2047CF0064A374 /* Build configuration list for PBXNativeTarget "FlurryEventLogger" */;
 			buildPhases = (
+				E24B6AD6F7F7A4E4A6E9B1E5 /* [CP] Check Pods Manifest.lock */,
 				20072E6B1D2047CE0064A374 /* Sources */,
 				20072E6C1D2047CE0064A374 /* Frameworks */,
 				20072E6D1D2047CE0064A374 /* Headers */,
 				20072E6E1D2047CE0064A374 /* Resources */,
+				B0B218514AFB6535421284B1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,9 +162,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20072E871D2047CF0064A374 /* Build configuration list for PBXNativeTarget "FlurryEventLoggerTests" */;
 			buildPhases = (
+				FECEFE7A709F7DFCB5220FBE /* [CP] Check Pods Manifest.lock */,
 				20072E761D2047CF0064A374 /* Sources */,
 				20072E771D2047CF0064A374 /* Frameworks */,
 				20072E781D2047CF0064A374 /* Resources */,
+				A512F680DCE022C343366E3C /* [CP] Embed Pods Frameworks */,
+				183954124F5420E56FBC6711 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -189,11 +232,91 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		183954124F5420E56FBC6711 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlurryEventLoggerTests/Pods-FlurryEventLoggerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A512F680DCE022C343366E3C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlurryEventLoggerTests/Pods-FlurryEventLoggerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0B218514AFB6535421284B1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlurryEventLogger/Pods-FlurryEventLogger-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E24B6AD6F7F7A4E4A6E9B1E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FECEFE7A709F7DFCB5220FBE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		20072E6B1D2047CE0064A374 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2057723C1D20486A008C21AB /* Indexable.swift in Sources */,
+				2057723A1D204854008C21AB /* FlurryEventLogger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,7 +432,9 @@
 		};
 		20072E851D2047CF0064A374 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A53FFCCEC0EB1B963515D3DB /* Pods-FlurryEventLogger.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -320,12 +445,15 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.anilgoktas.FlurryEventLogger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		20072E861D2047CF0064A374 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF5E91D3136767EE3AC0DE63 /* Pods-FlurryEventLogger.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -341,6 +469,7 @@
 		};
 		20072E881D2047CF0064A374 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6177C6923794EF492A97B503 /* Pods-FlurryEventLoggerTests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = FlurryEventLoggerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -351,6 +480,7 @@
 		};
 		20072E891D2047CF0064A374 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 886D64300977F3393ABE1BBF /* Pods-FlurryEventLoggerTests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = FlurryEventLoggerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -378,6 +508,7 @@
 				20072E861D2047CF0064A374 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		20072E871D2047CF0064A374 /* Build configuration list for PBXNativeTarget "FlurryEventLoggerTests" */ = {
 			isa = XCConfigurationList;
@@ -386,6 +517,7 @@
 				20072E891D2047CF0064A374 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

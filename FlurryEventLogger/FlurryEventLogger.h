@@ -16,4 +16,4 @@ FOUNDATION_EXPORT const unsigned char FlurryEventLoggerVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <FlurryEventLogger/PublicHeader.h>
 
-
+@import Flurry_iOS_SDK;
